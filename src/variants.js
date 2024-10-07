@@ -1,4 +1,3 @@
-// fadeIn function
 export const fadeIn = (direction) => {
   return {
     hidden: {

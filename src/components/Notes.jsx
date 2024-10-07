@@ -31,8 +31,6 @@ const Notes = ({ notesData, onNoteClick, onAddNoteClick }) => {
 						+
 					</button>
 				</div>
-
-				{/* Search input */}
 				<div className="px-4 py-2">
 					<input
 						className='w-full text-black rounded-xl p-2 focus:outline-none focus:ring-2 focus:ring-cyan-700 italic transition duration-300'
@@ -42,8 +40,6 @@ const Notes = ({ notesData, onNoteClick, onAddNoteClick }) => {
 						onChange={searchHandler}
 					/>
 				</div>
-
-				{/* Notes List */}
 				<div className='px-4 pt-2'>
 					{filteredNotes.length > 0 ? (
 						<ul role="list" className="divide-y divide-gray-100">
